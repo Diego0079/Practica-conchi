@@ -5,7 +5,7 @@ const span = document.getElementById("total");
 
 input.addEventListener("input", function() {
   let cantidad = parseInt(input.value) || 0; /* Convierte el input en un numero  y luego el || 0 es por si queda en 0 el numero pues que muestre un 0 */
-  let precioTotal = cantidad * precioEntrada;
+  let precioTotal = cantidad * precioEntrada * 1.21;
   span.textContent = precioTotal + "€"; /* cambia precio */
 });
 
