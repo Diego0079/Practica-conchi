@@ -51,7 +51,7 @@
                 <input id="numero" type="number" min="0" value="0"></input>
                 <label for="enviar"></label>
                 <input type="submit" value="Comprar"></input>
-                <p id="parrafo-total">Total:</p>
+                <p id="parrafo-total">Total con I.V.A:</p>
                 <span id="total">0€</span>
             </form>
             
@@ -64,17 +64,17 @@
         <div class="caja">
             <form onsubmit="validar()">
                 <label for="Nombre">Nombre:</label>
-                <input placeholder="Introduce tu nombre" id="nombre" type="Text"></input>
+                <input minlength="3" placeholder="Introduce tu nombre" id="nombre" type="Text"></input>
                 <br>
                 <label for="Apellido">Apellido:</label>
-                <input placeholder="Introduce tu apellido" id="apellido" type="Text"></input>
+                <input minlength="3" placeholder="Introduce tu apellido" id="apellido" type="Text"></input>
                 <br>
                 <label for="mail">E-Mail:</label>
-                <input placeholder="Introduce tu email" id="email" type="email"></input>
+                <input minlength="3" placeholder="Introduce tu email" id="email" type="email"></input>
                 <br>
                 <br>
                 <label for="texto"></label>
-                <textarea id="text-area" placeholder="Describe el concepto del mail"></textarea>
+                <textarea minlength="10" id="text-area" placeholder="Describe el concepto del mail"></textarea>
                 <br>
                 <br>
                 <label for="enviar"></label>
