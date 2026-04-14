@@ -99,14 +99,14 @@ header {
 
 
 #arriba{
-  width: 400px;
+  width: 300px;
   height: 200px;
   border: 5px solid;
   border-color: black;
 }
 
 #arriba:hover{
-  width: 400px;
+  width: 300px;
   height: 200px;
   border: 5px solid;
   border-color: black;
