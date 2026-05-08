@@ -20,7 +20,7 @@ function alertaCompra() {
     return false;
   } 
   else {
-    window.alert("Has comprado " + cantidad + " entrada/s por " + precioTotal + "€");
+    window.alert("Has comprado " + cantidad + " entrada/s por " + precioTotal + "€" + " con IVA incluido.");
     form.reset(); /* para cuando des al sumbit se reinicie los valores */ 
   }
 }
