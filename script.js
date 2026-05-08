@@ -13,7 +13,7 @@ input.addEventListener("input", function() {
 function alertaCompra() {
   let total = document.getElementById("numero").value; /* .value para que devuelva el valor dentro del input */
   let cantidad = parseInt(total) || 0;
-  let precioTotal = cantidad * precioEntrada;
+  let precioTotal = cantidad * precioEntrada * 1.21;
 
   if (cantidad === 0) {
     window.alert("No has comprado ninguna entrada");
